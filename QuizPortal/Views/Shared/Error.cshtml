@@ -1,0 +1,22 @@
+﻿@model ErrorViewModel
+@{ ViewData["Title"] = "Error"; }
+
+<h1 class="text-danger">Error.</h1>
+<h2 class="text-danger">Ndodhi një gabim gjatë përpunimit të kërkesës suaj.</h2>
+
+@if (Model.ShowRequestId)
+{
+<p>
+    <strong>Request ID:</strong> <code>@Model.RequestId</code>
+</p>}
+
+<h3>Modaliteti i zhvillimit</h3>
+<p>
+    Ndërrimi në mjedisin <strong>Zhvillimi</strong> do të shfaqë informacion më të detajuar në lidhje me gabimin që ka ndodhur.
+</p>
+<p>
+    <strong>Mjedisi i zhvillimit nuk duhet të aktivizohet për aplikacionet e vendosura.</strong>
+    Mund të rezultojë në shfaqjen e informacionit të ndjeshëm nga përjashtimet tek përdoruesit fundorë.
+    Për korrigjimin lokal, aktivizoni mjedisin <strong>Development</strong> duke vendosur variablin e mjedisit <strong>ASPNETCORE_ENVIRONMENT</strong> në <strong>Zhvillimi</strong>
+    dhe rinisni aplikacionin.
+</p>

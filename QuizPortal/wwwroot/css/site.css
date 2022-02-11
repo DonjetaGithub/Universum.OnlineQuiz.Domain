@@ -1,0 +1,65 @@
+﻿
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Siguroni kontrast të mjaftueshëm kundër sfondit të bardhë */a {
+    color: #ff0f17;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #f51119;
+    border-color: #f51119;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #ff0f17;
+    border-color: #ff0f17;
+}
+
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+    border-top: 1px solid #ff0f17;
+}
+.border-bottom {
+    border-bottom: 1px solid #ff0f17;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    /* Margjina e poshtme sipas lartësisë së fundit */
+    margin-bottom: 60px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Përqendroni tekstin vertikalisht atje */
